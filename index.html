@@ -48,20 +48,163 @@
     <style>
         .eb-garamond {
             font-family: "EB Garamond", serif;
-            font-weight: normal;
-            font-style: normal;
         }
 
         .poppins {
             font-family: "Poppins", serif;
-            font-weight: 400;
-            font-style: normal;
+        }
+
+
+        .shade-1 {
+            background-image: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(17, 17, 17, 0) 100%), url('./images/banner.png');
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 
 </head>
 
 <body>
+
+
+    <!-- nav bar -->
+    <header class="container mx-auto">
+        <div class="mt-10  navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="poppins menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a class="font-semibold text-lg text-[#707070]">Home</a></li>
+                        <li>
+                            <details>
+                                <summary class="font-semibold text-lg text-[#707070]">Services</summary>
+                                <ul class="p-2">
+                                    <li><a class="font-normal text-lg text-[#707070]">Business Law</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Criminal Low</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Child Support</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Education</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Divorce</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Tax law</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="font-semibold text-lg text-[#707070]">Cases</summary>
+                                <ul class="p-2">
+                                    <li><a class="font-normal text-lg text-[#707070]">Criminal Cases</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Civil Cases</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Family Law Cases</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Taxation and Financial Cases</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Immigration Cases</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">HUman Rights Cases</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="font-semibold text-lg text-[#707070]">Blog</summary>
+                                <ul class="p-2">
+                                    <li><a class="font-normal text-lg text-[#707070]">Legal Awareness and Rights</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Case Law and Judgement</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Legal Procedures and Documentation</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Career and Professional Guidance</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="font-semibold text-lg text-[#707070]">Contact Us</summary>
+                                <ul class="p-2">
+                                    <li><a class="font-normal text-lg text-[#707070]">Phone</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Email</a></li>
+                                    <li><a class="font-normal text-lg text-[#707070]">Office</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+                <div><img class="w-20 sm:max-w-64" src="images/logo2.png" alt=""></div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="poppins menu menu-horizontal px-1">
+                    <li><a class="font-semibold text-lg text-[#707070]">Home</a></li>
+                    <li>
+                        <details>
+                            <summary class="font-semibold text-lg text-[#707070]">Services</summary>
+                            <ul class="p-2">
+                                <li><a class="font-normal text-lg text-[#707070]">Business Law</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Criminal Low</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Child Support</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Education</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Divorce</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Tax law</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary class="font-semibold text-lg text-[#707070]">Cases</summary>
+                            <ul class="p-2">
+                                <li><a class="font-normal text-lg text-[#707070]">Criminal Cases</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Civil Cases</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Family Law Cases</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Taxation and Financial Cases</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Immigration Cases</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">HUman Rights Cases</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary class="font-semibold text-lg text-[#707070]">Blog</summary>
+                            <ul class="p-2">
+                                <li><a class="font-normal text-lg text-[#707070]">Legal Awareness and Rights</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Case Law and Judgement</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Legal Procedures and Documentation</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Career and Professional Guidance</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary class="font-semibold text-lg text-[#707070]" class="font-normal text-lg text-[#707070]">Contact Us</summary>
+                            <ul class="p-2">
+                                <li><a class="font-normal text-lg text-[#707070]">Phone</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Email</a></li>
+                                <li><a class="font-normal text-lg text-[#707070]">Office</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn max-w-24 sm:max-w-48 bg-[#B68C5A] text-white font-semibold text-sm lg:text-lg">Free Consultation</a>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main>
+
+    </main>
+
+
+    <footer>
+
+
+
+    </footer>
+
+
 
 </body>
 
