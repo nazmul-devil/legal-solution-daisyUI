@@ -56,9 +56,11 @@
 
 
         .shade-1 {
+            border-radius: 0.5rem; ;
             background-image: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(17, 17, 17, 0) 100%), url('./images/banner.png');
             background-repeat: no-repeat;
             background-size: cover;
+            background-position: center;
         }
     </style>
 
@@ -193,7 +195,30 @@
     </header>
 
 
-    <main>
+    <main class="container mx-auto">
+<!-- hero section -->
+
+
+
+<div
+  class="shade-1 px-30 py-12 lg:px-60 lg:py-24">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="">
+      <h1 class="eb-garamond mb-6 text-4xl lg:text-7xl font-extrabold leading-[2rem] lg:leading-[5rem] text-white">We Provide Effective <br> Legal Solutions</h1>
+      <p class="mb-5 poppins font-normal text-lg lg:leading-6 leading-4 text-[#E7E7E7]">
+        Expert legal solutions tailored to your needs. From personal matters to business challenges, we’re here to guide you with clarity and care. Your justice, our priority."
+      </p>
+      <div class="space-y-3 lg:space-x-6">
+        <input class="w-3/5 h-16 p-3 bg-white rounded-lg placeholder-[#A0A0A0]" type="text" placeholder="Search your Services"><button class="poppins btn border-none bg-[#B68C5A] h-16 font-semibold text-xl text-white">Get Started</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 
     </main>
 
